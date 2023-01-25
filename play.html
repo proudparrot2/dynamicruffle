@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DynamicRuffle</title>
+    <link rel="icon" href="https://seeklogo.com/images/R/ruffle-r-logo-0CC7E3C03F-seeklogo.com.png" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      ruffle-player {
+        height: 100vh;
+        width: 100vw;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="game"></div>
+    <script>
+      const params = new URLSearchParams(window.location.search)
+      const file 
+    
+      window.RufflePlayer = window.RufflePlayer || {};
+      window.addEventListener("load", (event) => {
+        const ruffle = window.RufflePlayer.newest();
+        const player = ruffle.createPlayer();
+        console.log(player)
+        const container = document.getElementById("game");
+        container.appendChild(player);
+        player.load(file);
+      });
+    </script>
+    <script src="https://unpkg.com/@ruffle-rs/ruffle"></script> 
+  </body>
+</html>

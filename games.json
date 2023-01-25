@@ -1,0 +1,14 @@
+[
+  {
+    "id": "monopoly",
+    "title": "Monopoly",
+    "file": "games/Monopoly.swf",
+    "description": "A remake of the original monopoly"
+  },
+  {
+    "id": "papalouie2",
+    "title": "Papa Louie 2",
+    "description": "le papa louie",
+    "file": "games/PapaLouie2.swf"
+  }
+]
