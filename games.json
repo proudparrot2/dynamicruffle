@@ -1,14 +1,32 @@
-[
+ [
   {
     "id": "monopoly",
     "title": "Monopoly",
-    "file": "games/Monopoly.swf",
-    "description": "A remake of the original monopoly"
+    "description": "A remake of the original monopoly",
+    "file": "games/Monopoly.swf"
   },
   {
-    "id": "papalouie2",
-    "title": "Papa Louie 2",
-    "description": "le papa louie",
-    "file": "games/PapaLouie2.swf"
-  }
+    "id": "wonderputt",
+    "title": "Wonderputt",
+    "description": "Golf thing",
+    "file": "games/wonderputt.swf"
+  },
+  {
+    "id": "supersmashflash",
+    "title": "Super Smash Flash",
+    "description": "Fight people or something",
+    "file": "games/SuperSmashFlash.swf"
+  },
+  {
+    "id": "motox3m",
+    "title": "Moto X3M",
+    "description": "A cool bike game",
+    "file": "games/moto-x3m.swf"
+  },
+   {
+     "id": "papascoop",
+     "title": "Papa's Scooperia",
+     "description": "something",
+     "file": "https://cdn.jsdelivr.net/gh/h3sj7v2f6k/jd832xj4la@d49fade521c1ab440c1ef79a7caf2b870725027d/Papa's%20Scooperia/papa-s-scooperia.swf"
+   }
 ]
